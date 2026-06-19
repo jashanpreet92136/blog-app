@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 85%;
+  background-color: var(--bgSoft);
+  color: var(--textSoftColor);
+  padding: 5px 10px;
+}
+.sendbtn {
+  color: white;
+  background-color: rgb(246, 165, 136);
+  padding: 6px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.user {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.userText {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  font-size: 17px;
+  font-weight: 600;
+}
+.date {
+  font-size: 13px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+}
+.comment p {
+  font-size: 17px;
+  padding-left: 5px;
+  margin-top: 5px;
+  color: var(--textColor);
+}
+.comments {
+  display: flex;
+  margin-top: 35px;
+  gap: 15px;
+  flex-direction: column;
+}

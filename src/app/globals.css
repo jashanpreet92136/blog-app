@@ -1,26 +1,120 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg: white;
+  --textColor: black;
+  --bgSoft: #f0f0f0;
+  --textSoftColor: #626262;
+  --lightText: rgb(30, 30, 30);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-width: 100vw;
+  overflow-x: hidden;
+}
+.dark {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+  --lightText: #adaaaa;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.light {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+  --lightText: rgb(30, 30, 30);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.container {
+  min-height: 100vh;
+  min-width: 100%;
+  background-color: var(--bg);
+  color: var(--textColor);
+}
+.wrapper {
+  max-width: 1366px;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* margin-top: 10px; */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* background-color: bisque; */
+}
+@media screen and (max-width: 1536px) {
+  .wrapper {
+    max-width: 1366px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
+@media screen and (max-width: 1366px) {
+  .wrapper {
+    max-width: 1200px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 768px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 475px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 375px;
+  }
+}
+.ql-container {
+  font-size: 28px !important;
+}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b3b3b1;
+}
+.ql-editor {
+  font-size: 17px !important;
+}
+
+@media screen and (max-width: 500px) {
+  .ql-editor {
+    font-size: 20px !important;
+    line-height: 1.1;
+  }
 }

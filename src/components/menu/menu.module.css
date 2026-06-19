@@ -1,0 +1,32 @@
+.container {
+  flex: 2;
+  margin-top: 20px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.subtitle {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--textSoftColor);
+}
+.title {
+  font-size: 30px;
+  font-weight: 500;
+}
+.hr {
+  margin: 30px 0;
+  opacity: 0.2;
+}
+@media screen and (max-width: 1024px) {
+  .container {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 500) {
+  .container {
+    display: none;
+  }
+}

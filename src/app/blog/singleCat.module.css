@@ -1,0 +1,14 @@
+.container {
+}
+.content {
+  display: flex;
+}
+.title {
+  color: white;
+  background-color: coral;
+  text-align: center;
+  padding: 4px 10px;
+  font-size: 23px;
+  font-weight: 500;
+  text-transform: capitalize;
+}

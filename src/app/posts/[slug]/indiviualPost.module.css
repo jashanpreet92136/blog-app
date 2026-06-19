@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.upperPart {
+  display: flex;
+  gap: 15px;
+  min-height: 350px;
+}
+.textContainer {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.imgContainer {
+  flex: 1;
+  position: relative;
+}
+.image {
+  position: absolute;
+  object-fit: cover;
+}
+.title {
+  margin-top: 20px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.user {
+  display: flex;
+  width: 45%;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.userText {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+.username {
+  font-size: 17px;
+  font-weight: 600;
+}
+.date {
+  font-size: 13px;
+}
+.userimage {
+  border-radius: 50%;
+}
+.post {
+  display: flex;
+  gap: 10px;
+}
+.desc {
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 5;
+}
+.des {
+  font-size: 17px;
+  color: var(--lightText);
+  word-break: break-all;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.des p {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 500px) {
+  .upperPart {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: 100vh;
+  }
+  .imgContainer {
+    height: 50%;
+  }
+}
