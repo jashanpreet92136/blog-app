@@ -4,7 +4,7 @@ A full-stack blogging platform built with Next.js where users can browse posts, 
 
 🚀 Live Demo
 
-https://your-vercel-url.vercel.app
+[https://your-vercel-url.vercel.app](https://blog-app-zeta-tan.vercel.app/)
 
 📸 Screenshots
 Home Page
