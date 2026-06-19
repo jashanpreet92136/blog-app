@@ -62,4 +62,4 @@ CSS Modules
 🚧 Project Status
 
 Currently under active development.
-More features will be added like search, edit/delete posts, and user profiles.
+More features will be added .
