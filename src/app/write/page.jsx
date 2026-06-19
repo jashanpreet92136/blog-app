@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./write.module.css";
 import Image from "next/image";
 import ReactQuill from "react-quill-new";
@@ -22,8 +22,9 @@ const page = () => {
   }
 
   if (status === "unauthenticated") {
-    router.push("/");
+    return <div className={styles.loading}>You are not logged in</div>;
   }
+
   const slugify = (str) =>
     str
       .toLowerCase()
