@@ -8,7 +8,7 @@ https://your-vercel-url.vercel.app
 
 📸 Screenshots
 Home Page
-/screenshots/homepage1.png
+(/screenshots/homepage1.png)
 Blog Categories
 
 
