@@ -13,9 +13,12 @@ Home Page
 ![Home](./screenshots/homepage3.png) 
 ![Home](./screenshots/homepage4.png) 
 ![Home](./screenshots/homepage5.png) 
-![Home](./screenshots/homepage6.png) 
-Blog Categories
 
+Blog Categories
+![Home] (./ screenshots/blog_cat1.png )
+![Home] (./screenshots/blog_cat1_2.png )
+![Home] (./screenshots/blog_cat2.png )
+![Home] (./screenshots/blog_cat2_2.png )
 
 
 
@@ -25,11 +28,12 @@ Blog Categories
 
 Single Post Page
 
-
-
-
-
-
+![Home] (./screenshots/singlePage1.png )
+![Home] (./ screenshots/SinglePage2.png )
+![Home] (./screenshots/SinglePage3.png )
+![Home] (./screenshots/SinglePage4.png )
+![Home] (./screenshots/SinglePage5.png )
+![Home] (./ screenshots/SinglePage6.png )
 
 
 
@@ -37,9 +41,9 @@ Single Post Page
 
 
 Write Page
-
+![Home] (./screenshots/write.png )
 Login Page
-
+![Home] (./screenshots/loginPage.png )
 ✨ Features
 Google Authentication with NextAuth
 Create and publish blog posts
